@@ -12,7 +12,7 @@
 <p align="center">
   <a href="../../releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/virtual-bytes/vcfboot?label=download&color=2dd4bf"></a>
   <img alt="VCF 9.1.1" src="https://img.shields.io/badge/VCF-9.1.1-5b8def">
-  <img alt="Dell iDRAC 9" src="https://img.shields.io/badge/Dell-iDRAC%209-5b8def">
+  <img alt="Dell PowerEdge 14G or newer" src="https://img.shields.io/badge/Dell%20PowerEdge-14G%20or%20newer-5b8def">
   <img alt="Labs and PoC" src="https://img.shields.io/badge/for-labs%20%26%20PoC-f5a524">
 </p>
 
@@ -56,7 +56,8 @@ sha256sum -c vcfboot-1.0.0.ova.sha256
 
 **Hardware**
 
-- Dell PowerEdge 14th generation (**R640**, **R740xd**) with **iDRAC 9**. One or two servers for a lab build, three or four for a production-like one.
+- Dell PowerEdge **14th generation or newer** (iDRAC 9 and later): 14th-generation servers such as the R640 and R740xd, and newer generations such as the R650, R750, R660 and R760. It was built and tested on the R640 and R740xd.
+- One or two servers for a lab build, three or four for a production-like one.
 - Cascade Lake CPUs or newer. ESX 9.1 calls Skylake unsupported: vcfboot installs on Skylake only in lab mode.
 
 > [!NOTE]
